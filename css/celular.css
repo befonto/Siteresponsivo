@@ -79,41 +79,32 @@ nav ul li a:hover {
 }
 
 section {
-    width: 700px;
-    float: right;
-}
-
-article#texto {
-    width: 380px;
-    float: left;
-}
-
-article#artigo-interno {
     width: 100%;
-    float: left;
 }
+
+article#texto, article#artigo-interno {
+    width:100%;
+} /* com virgula é mais de uma coisa que eu quero puxar, espaço é quando tá um dentro do outro */
 
 aside#imagens {
-    width: 300px;
-    float: right;
-}
-
-.video {
-    width: 560px;
-    height: 315px;
+    width: 100%;
 }
 
 .imagem {
-    width: 300px;
+    width: 70%;
+}
+
+.video {
+    width: 784px;
+    height: 441px;
 }
 
 .mapa {
-    width: 700px;
-    height: 450px;
+    width: 800px;
+    height: 1000px;
 }
 
 footer {
-    clear: both; /* limpou tudo o que impedia e deixava o background color preto */
     width: 100%;
     line-height: 50px;
     text-align: right;
@@ -123,7 +114,7 @@ footer {
 footer a {
     cor: #000;
     text-decoration: none;
-    font-size: 10pt;
+    font-size: 1.6 rem;
     font-style: italic;
 }
 
